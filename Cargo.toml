@@ -1,6 +1,6 @@
 [package]
 name = "sfrx"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Rust lib to wrap sfdx-cli commands"
 license = "MIT"
