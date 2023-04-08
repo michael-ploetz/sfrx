@@ -1,5 +1,8 @@
 [package]
 name = "sfrx"
+keywords = ["salesforce", "sfdx"]
+repository = "https://github.com/michael-ploetz/sfrx"
+readme = "README.md"
 version = "0.1.2"
 edition = "2021"
 description = "Rust lib to wrap sfdx-cli commands"
