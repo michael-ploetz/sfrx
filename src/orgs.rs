@@ -56,7 +56,7 @@ pub struct ScratchOrg {
     pub is_default_dev_hub_username: bool,
     pub is_default_username: bool,
     pub last_used: String,
-    pub connected_status: String,
+    pub connected_status: Option<String>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]

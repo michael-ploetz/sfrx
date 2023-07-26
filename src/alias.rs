@@ -19,7 +19,7 @@ pub struct AliasListOutput {
 
 pub fn alias_list() -> Result<AliasListOutput, SfdxError> {
     let output = Command::new(env::var("SFDX_RUNTIME")?)
-        .args(&["alias:list", "--json"])
+        .args(&["alias", "list", "--json"])
         .output()?;
     let stdout = String::from_utf8_lossy(&output.stdout);
     print!("{}", stdout);
